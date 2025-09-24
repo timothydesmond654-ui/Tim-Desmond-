@@ -1,0 +1,61 @@
+<html> 
+    <head>
+       
+        <style>
+            body {
+                text-align: center;
+                font-family: 'Arial', Arial, Helvetica, sans-serif;
+                background-color: #FFFFFF;
+            }
+            .bubble {
+                background-color: #F5F5F5;
+                border-radius: 20px;
+                box-shadow: 0 4px 8px rgba(21, 101, 192, 0.10);
+                max-width: 700px;
+                margin: 40px auto;
+                padding: 32px 24px;
+                display: block;
+            }
+            nav {
+                background: #000;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 56px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+                border-radius: 16px;
+            }
+            nav span {
+                margin: 0 24px;
+                font-weight: 500;
+                font-size: 1.1em;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <span id="contact-link" style="cursor:pointer;">Contact</span>
+        </nav>
+        <div class="bubble">
+            <h1>Tim Desmond</h1>
+            <ul style="list-style: none; padding: 0;">
+                <li>1x School Rugby champion</li>
+                <li>1x Club Rugby champion</li>
+                <li>1x School Football champion</li>
+            </ul>
+            <h2>1x Atlantic champion</h2>
+            <p>1x Atlantic Rugby champion With New Brunswick U15 Team</p>
+            <h2>Highlights</h2>
+            <p>To watch his Highlights Click here.</p>
+            <p>Watch 10 for the team in white</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLf69GpuO3uSZMnmeJNO1eZyFhkvViBy-g" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <script>
+            
+            document.getElementById('contact-link').onclick = function() {
+                window.location.href = 'mailto:timothydesmond654@gmail.com'; 
+            };
+        </script>
+    </body>
+</html>
